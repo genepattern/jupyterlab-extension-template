@@ -52,4 +52,4 @@ While developing your extension, run the command below. It will watch your devel
 rebuilding the extension and deploying to JupyterLab when it detects a change. This will take a
 few seconds.
 
-jupyter lab --watch
+> jupyter lab --watch
