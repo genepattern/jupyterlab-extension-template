@@ -1,0 +1,39 @@
+{
+  "name": "blank-extension",
+  "version": "0.1.0",
+  "description": "A blank JupyterLab extension template",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+  ],
+  "homepage": "https://genepattern-notebook.org",
+  "bugs": {
+    "url": "https://github.com/genepattern/genepattern-notebook/issues"
+  },
+  "license": "BSD-3-Clause",
+  "author": "Thorin Tabor",
+  "files": [
+    "src/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
+    "style/**/*.{css,eot,gif,html,jpg,json,png,svg,woff2,ttf}"
+  ],
+  "main": "src/plugin.js",
+  "style": "style/plugin.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open",
+    "prepare": "npm run clean && npm run build",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@jupyterlab/application": "^1.0.0-rc.0",
+    "@jupyterlab/apputils": "^1.0.0-rc.0",
+    "@phosphor/messaging": "^1.3.0",
+    "@phosphor/widgets": "^1.9.1"
+  },
+  "devDependencies": {},
+  "jupyterlab": {
+    "extension": true
+  }
+}
