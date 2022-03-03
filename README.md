@@ -1,3 +1,6 @@
+> ## **DEPERCATED**
+> This template no longer works with the latest version of JupyterLab and has been deprecated.
+
 # Lab Extension Template
 
 This is a template for beginning a JupyterLab Extension. It sets up the build script and contains
